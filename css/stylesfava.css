@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #f7c37bf2;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #edba73;
+    text-transform: uppercase;
+    font: small-caption;
+}
+
+
+/* Grid do prato escolhido */
+
+h2 {
+    text-transform: uppercase;
+    border-top: 20px solid #ffefdaf2;
+    border-bottom: 3px solid #edba73;
+    background-color: #f7c37bf2;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin: 100;
+}
+
+.container {
+    background-color: #ffefdaf2;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 5000px;
+    margin: 0 auto;
+}
+.card {
+    position: relative;
+    width: 31%;
+    display: inline-block;
+    margin: 1% 35%;
+    padding: 15px;
+    text-align: justify;
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover; 
+}
+
+#img-1 {
+    background-image: url('../img/fava.jpg');
+}
+
+
+h3 {
+    margin-bottom:10px;
+    color: #b46e0c;
+    border-left: 5px solid #ecab5c;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #de9a3bb6;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #e9b676ce;
+}
+
+/* Footer */
+footer {
+    background-color:#f7c37bf2;
+    color: #fff;
+    border-top: 4px solid #f0c189c9;
+    text-align: center;
+    padding: 40px;   
+}
+
+
+.promocao-card {
+    width: 31%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(194, 194, 194);
+  }
+  
+  .promocao img {
+    width: 100%;
+    max-height: 454px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(194, 194, 194);
+  }
+  
+  .texto-card {
+    word-wrap: break-word;
+    margin: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .texto-card h2 {
+    border-bottom: #afafaf34 solid 1px;
+  }
+  
+  
+  .texto-card-valores {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
